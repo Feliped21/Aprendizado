@@ -31,3 +31,8 @@ if (x > 100) {
 } else {
     console.log("a variável x não é maior que 100")
 }
+
+// Exemplo de loop for
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}

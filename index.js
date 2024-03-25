@@ -36,3 +36,23 @@ if (x > 100) {
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
+
+// Exemplo loop while
+let contador = 0;
+while (contador < 5) {
+    console.log(contador);
+    contador++;
+}
+
+// Exemplo de loop do-while
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
+
+// Exemplo de loop for-of com array
+let frutas = ['maçã','banana','laranja'];
+for (let fruta of frutas) {
+    console.log(fruta);
+}

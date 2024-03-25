@@ -56,3 +56,15 @@ let frutas = ['maçã','banana','laranja'];
 for (let fruta of frutas) {
     console.log(fruta);
 }
+
+// Arrow function equivalente
+const somaArrow = (a,b) => a + b;
+
+const saudacao = () => "Ola, mundo";
+console.log(saudacao());
+
+const dobrar = x => x * 2;
+console.log(dobrar(5));
+
+const soma = (a,b) => a + b;
+console.log(soma(3, 4));

@@ -25,3 +25,9 @@ if (y >= 20) {
 resultado = x + y;
 console.log(resultado);
 console.log("bem vindo felipe!");
+
+if (x > 100) {
+    console.log("a variável x é maior que 100")
+} else {
+    console.log("a variável x não é maior que 100")
+}

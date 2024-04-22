@@ -84,3 +84,7 @@ Object.keys(pessoa).forEach(chave => {
 });
 
 console.log(pessoa);
+
+//Versão 2 teste
+const saudacao = () => "Ola, mundo 2";
+console.log(saudacao());

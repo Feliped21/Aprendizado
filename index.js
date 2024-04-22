@@ -68,3 +68,19 @@ console.log(dobrar(5));
 
 const soma = (a,b) => a + b;
 console.log(soma(3, 4));
+
+const triplicar = x => x * 3;
+console.log(triplicar(5));
+
+// Exemplo de objeto representado uma pessoa
+const pessoa = {
+    nome: 'João',
+    idade: 25,
+    cidade: 'Goiânia'
+};
+
+Object.keys(pessoa).forEach(chave => {
+    console.log('${chave}: ${pessoa[chave]}');
+});
+
+console.log(pessoa);
